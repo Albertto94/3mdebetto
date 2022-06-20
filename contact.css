@@ -9,7 +9,7 @@ body{
 }
 
 .fondo1{
-    background: url(../imagenes/Recurso\ 4.png);
+    background: url(Recurso\ 4.png);
 }
 
 header img{
@@ -45,7 +45,7 @@ header img{
 /*-----------------------INICIA FORM----------------------*/
 
 .fondo2{
-    background: url(../imagenes/Recurso\ 6.png);
+    background: url(Recurso\ 6.png);
 }
 
 .contenedor{
