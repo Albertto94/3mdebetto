@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    /*background: url(../imagenes/Recurso\ 3.png);*/
+}
+
+.fondo1{
+    background: url(../imagenes/Recurso\ 3.png);
+}
+
+
+header img{
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+}
+
+.parrafo{
+    /*border: 1px solid rgb(255, 242, 0);*/
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 900px;
+    height: 500px;
+}
+
+.parrafo .titu1{
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+
+.parrafo .titu2{
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.parrafo .texto1{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.parrafo .titu3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+/*-------------------inicia contenedor de precios--------------------*/
+
+.fondo2{
+    background: url(../imagenes/Recurso\ 6.png);
+}
+
+.contenedor{
+    display: flex;
+
+    display: inline-block;
+}
+
+.c0{
+    /*border: 2px solid orange;*/
+
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6{
+    /*border: 2px solid green;*/
+    border-radius: 20%;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+
+.head{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.head:hover{
+    font-size: 40px;
+    cursor: default;
+}
+
+.Ccosto{
+    font-size: 30px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.Ccosto:hover{
+    font-size: 35px;
+    cursor: default;
+}
+
+li:hover{
+    font-size: 25px;
+    cursor: default;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 140px;
+    padding: 20px 0;
+    transition: all .5s;
+}
+
+.c1:hover{background:rgba(212, 212, 212, 0.3);}
+.c2:hover{background:rgba(212, 212, 212, 0.3);}
+.c3:hover{background:rgba(212, 212, 212, 0.3);}
+.c4:hover{background:rgba(212, 212, 212, 0.3);}
+.c5:hover{background:rgba(212, 212, 212, 0.3);}
+.c6:hover{background:rgba(212, 212, 212, 0.3);}
+
+hr{
+    margin: 40px;
+}
+
+footer div h3{
+    /*border: 1px solid orange;*/
+    width: 200px;
+    height: 20px;
+    margin-left: 500px;
+}
+
+.contenedor3 div{
+    width: 350px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    /*border: 1px solid red;*/
+    display: flex;
+
+    display: inline-block;
+}
